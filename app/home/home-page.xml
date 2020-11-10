@@ -1,0 +1,23 @@
+<Page loaded="pageLoaded" xmlns="http://www.nativescript.org/tns.xsd">
+
+    <ActionBar title="Trang chủ" style="color: white"/>
+
+    <FlexboxLayout>
+            <Button text="Tạo mã mới" tap="onMakeTap"
+                class="btn btn-primary" />
+
+            <Button text="Scan bằng camera" tap="onScanTap"
+                class="btn btn-primary" />
+
+            <Button text="Scan ảnh từ thư viện" tap="onLibraryTap"
+                class="btn btn-primary" />
+
+            <Button text="Kho tài liệu" tap="onLearnTap"
+                class="btn btn-primary" />
+
+            <Button text="Thoát" tap="onOutTap" class="btn btn-dark" />
+
+            <Label text="All Rights Reserved" class="h6"
+                textAlignment="center" />
+    </FlexboxLayout>
+</Page>

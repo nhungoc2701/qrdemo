@@ -1,0 +1,9 @@
+<Page>
+
+    <ActionBar title="Kho tài liệu"/>
+    <FlexboxLayout>
+        <Button text="Lớp 10" tap="{{ onTenTap }}" />
+        <Button text="Lớp 11" tap="{{ onEleTap }}" />
+        <Button text="Lớp 12" tap="{{ onTweTap }}" />
+    </FlexboxLayout>
+</Page>

@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:Barcode="nativescript-barcodescanner">
+    <ActionBar title="Quét mã QR qua camera" />
+    <FlexboxLayout>
+        <Barcode:BarcodeScannerView
+            class="scanner-round"
+            formats="QR_CODE"
+            beepOnScan="true"
+            reportDuplicates="true"
+            preferFrontCamera="false"
+            pause="{{ pause }}"
+        scanResult="{{ onScanResult }}"/>
+    </FlexboxLayout>
+</Page>

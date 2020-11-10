@@ -1,0 +1,31 @@
+ActionBar
+{
+  background-color: #CB1D00;
+}
+
+FlexboxLayout
+{
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  margin-bottom: 3%;
+  width: 75%;
+  height: 12%;
+}
+
+.btn-primary {
+  background-color: #CB1D00;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}
+
+.btn-dark {
+  background-color: rgb(0, 0, 0);
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}

@@ -1,0 +1,15 @@
+<Page loaded="pageLoaded">
+    <ActionBar title="Tạo mã QR mới" />
+    <FlexboxLayout orientation="horizontal">
+        <StackLayout>
+            <Button text="Video" tap="{{ onVidTap }}" />
+            <Button text="Hình ảnh" tap="{{ onImgTap }}" />
+            <Button text="Văn bản" tap="{{ onTxtTap }}" />
+        </StackLayout>
+        <StackLayout>
+            <Button text="Tập tin" tap="{{ onFileTap }}" />
+            <Button text="Liên kết URL" tap="{{ onUrlTap }}" />
+            <Button text="Nhiều thông tin" tap="{{ onMultiTap }}" />
+        </StackLayout>
+    </FlexboxLayout>
+</Page>

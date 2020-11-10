@@ -1,0 +1,11 @@
+ActionBar
+{
+    background-color: rgb(0, 153, 107);
+    color: white;
+}
+
+FlexboxLayout {
+    orientation: vertical;
+    justify-content: center;
+    align-items: flex-end;
+}

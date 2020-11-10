@@ -1,0 +1,19 @@
+ActionBar
+{
+  background-color: #9ef9ff;
+  color: black;
+}
+
+FlexboxLayout
+{
+  flex-direction: column;
+  align-items: center;
+}
+
+Button
+{
+    margin-top: 20;
+    width: 80%;
+    height: 10%;
+    font-weight: bold;
+}
